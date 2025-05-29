@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CollegeSelectionScreen"
+    android:screenOrientation="portrait">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Select those that apply:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Field of Study" />
+
+        <CheckBox
+            android:id="@+id/stemBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STEM" />
+
+        <CheckBox
+            android:id="@+id/socialScienceBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social Science" />
+
+        <CheckBox
+            android:id="@+id/businessBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Business" />
+
+        <CheckBox
+            android:id="@+id/healthBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Health" />
+
+        <CheckBox
+            android:id="@+id/artBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Art" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuition and Fees *per year*" />
+
+        <CheckBox
+            android:id="@+id/zeroToTwenty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$0 - $20,000" />
+
+        <CheckBox
+            android:id="@+id/twentyToThirty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$20,001 - $30,000" />
+
+        <CheckBox
+            android:id="@+id/thirtyToForty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$30,001 - $40,000" />
+
+        <CheckBox
+            android:id="@+id/fortyPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$40,001+" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviornment" />
+
+        <CheckBox
+            android:id="@+id/ruralBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rural" />
+
+        <CheckBox
+            android:id="@+id/suburbanBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suburban" />
+
+        <CheckBox
+            android:id="@+id/urbanBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urban" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size" />
+
+        <CheckBox
+            android:id="@+id/smallBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small (5,000 students and below)." />
+
+        <CheckBox
+            android:id="@+id/mediumBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium (5,001 - 15,000 Students)" />
+
+        <CheckBox
+            android:id="@+id/largeBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large (15,001+ Students)" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type" />
+
+        <CheckBox
+            android:id="@+id/publicBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Public" />
+
+        <CheckBox
+            android:id="@+id/privateBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Private" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Next"
+                android:text="NEXT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goBack"
+                android:text="BACK"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/backMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="*pressing back clears search fields*"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/nextButton"
+                app:layout_constraintStart_toEndOf="@+id/backButton"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/jobType"
+        android:title="Type" >
+        <menu>
+            <group android:id="@+id/jobTypes">
+                android:checkableBehavior="single">
+
+            <item android:id="@+id/jobTypeDefault"
+                android:title="None" />
+            <item android:id="@+id/fullTimeJob"
+                android:title="Full-Time Job" />
+            <item android:id="@+id/partTimeJob"
+                android:title="Part-Time Job" />
+            <item android:id="@+id/internship"
+                android:title="Internship" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/jobLocation"
+        android:title="Location" >
+        <menu>
+            <item android:id="@+id/locationDefault"
+                android:title="None"/>
+            <item android:id="@+id/alaska"
+                android:title="AK" />
+            <item android:id="@+id/alabama"
+                android:title="AL" />
+            <item android:id="@+id/arkansas"
+                android:title="AR" />
+            <item android:id="@+id/arizona"
+                android:title="AZ" />
+            <item android:id="@+id/california"
+                android:title="CA" />
+            <item android:id="@+id/colorado"
+                android:title="CO" />
+            <item android:id="@+id/connecticut"
+                android:title="CT" />
+            <item android:id="@+id/delaware"
+                android:title="DE" />
+            <item android:id="@+id/florida"
+                android:title="FL" />
+            <item android:id="@+id/georgia"
+                android:title="GA" />
+            <item android:id="@+id/hawaii"
+                android:title="HI" />
+            <item android:id="@+id/iowa"
+                android:title="IA" />
+            <item android:id="@+id/idaho"
+                android:title="ID" />
+            <item android:id="@+id/illinois"
+                android:title="IL" />
+            <item android:id="@+id/indiana"
+                android:title="IN" />
+            <item android:id="@+id/kansas"
+                android:title="KS" />
+            <item android:id="@+id/kentucky"
+                android:title="KY" />
+            <item android:id="@+id/louisiana"
+                android:title="LA" />
+            <item android:id="@+id/massachusetts"
+                android:title="MA" />
+            <item android:id="@+id/maryland"
+                android:title="MD" />
+            <item android:id="@+id/maine"
+                android:title="ME" />
+            <item android:id="@+id/michigan"
+                android:title="MI" />
+            <item android:id="@+id/minnesota"
+                android:title="MN" />
+            <item android:id="@+id/missouri"
+                android:title="MO" />
+            <item android:id="@+id/mississippi"
+                android:title="MS" />
+            <item android:id="@+id/montana"
+                android:title="MT" />
+            <item android:id="@+id/northCarolina"
+                android:title="NC" />
+            <item android:id="@+id/northDakota"
+                android:title="ND" />
+            <item android:id="@+id/nebraska"
+                android:title="NE" />
+            <item android:id="@+id/newHamshire"
+                android:title="NH" />
+            <item android:id="@+id/newJersey"
+                android:title="NJ" />
+            <item android:id="@+id/newMexico"
+                android:title="NM" />
+            <item android:id="@+id/nevada"
+                android:title="NV" />
+            <item android:id="@+id/newYork"
+                android:title="NY" />
+            <item android:id="@+id/ohio"
+                android:title="OH" />
+            <item android:id="@+id/oklahoma"
+                android:title="OK" />
+            <item android:id="@+id/oregon"
+                android:title="OR" />
+            <item android:id="@+id/pennsylvania"
+                android:title="PA" />
+            <item android:id="@+id/rhodeIsland"
+                android:title="RI" />
+            <item android:id="@+id/southCarolina"
+                android:title="SC" />
+            <item android:id="@+id/southDakota"
+                android:title="SD" />
+            <item android:id="@+id/tennessee"
+                android:title="TN" />
+            <item android:id="@+id/texas"
+                android:title="TX" />
+            <item android:id="@+id/utah"
+                android:title="UT" />
+            <item android:id="@+id/virginia"
+                android:title="VA" />
+            <item android:id="@+id/vermont"
+                android:title="VT" />
+            <item android:id="@+id/washington"
+                android:title="WA" />
+            <item android:id="@+id/wisconsin"
+                android:title="WI" />
+            <item android:id="@+id/westVirginia"
+                android:title="WV" />
+            <item android:id="@+id/wyoming"
+                android:title="WY" />
+
+        </menu>
+    </item>
+
+</menu>
