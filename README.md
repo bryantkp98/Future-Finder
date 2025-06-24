@@ -1,4 +1,4 @@
-# KnightRider
+# Future-Finder
 This App helps students map out the options the have for their careers ofter college.
 
 Demo Part 1: https://drive.google.com/file/d/1s1WhojbPoRPMc3zKkrE-h4uhpgQu9uys/view?usp=drive_link
